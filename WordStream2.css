@@ -1,0 +1,252 @@
+#container{
+	width: 1080px;
+	border: 1px solid black;
+	font-family: 'Arial', 'Calibri', serif, sans-serif;
+}
+/*----------------------------------------------------*/
+#header{
+	height:100px;
+}
+	#header ul{
+		text-align: center;
+		margin: 0px;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+		border-radius: 5px;
+		border-color: #E6E6E6;
+		display: inline-block;
+		width :410px;
+		padding: 0px;
+		vertical-align: top;
+		background-color: #F9F9F9;
+	}
+		#header ul li{
+				list-style-type: none;
+				display: inline-block;
+			}
+				#header ul li a{
+					text-decoration: none;
+					color: #9597A4;
+			}
+	#header img{
+		height: 60px;
+		width: 80px;
+		padding-bottom: 10px;
+		vertical-align: middle;
+	}
+	#header input{
+		vertical-align: top;
+		background-color: #1581C8;
+		color: #FFFFFF;
+	}
+	.logo{
+		display: inline-block;
+		width:595px;
+		height: 100px;
+		margin-top: 10px;
+	}
+	.logo h1{
+		font-size: 50px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.word{
+		color: #838385;
+	}
+	.stream{
+		color: #28799C;
+	}
+/*----------------------------------------------------*/
+#sidenav{
+	width: 320px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid black;
+}
+	.ppc input{
+		width: 320px;
+		text-align: center;
+	}
+		.wordstream-sidebar-title{
+			color: #487BB1;
+		}
+		.drive-profit{
+			color: #C45149;
+		}
+		.schedule-demo{
+			background-color: #2C9AE0;
+		}
+		.free-trial{
+			background-color: #EA6700;
+		}
+		.no-cc-req{
+			text-align: center;
+		}
+		.adwords-performance{
+			font-weight: bold;
+			color: #275D8A;
+			font-size: 20px;
+		}
+		.free-report{
+			font-weight: bold;
+		}
+	.ad{
+		background:url(left_content_ad1.png) no-repeat;
+		width: 300px;
+		height: 365px;
+	}
+/*----------------------------------------------------*/
+#body{
+	width: 750px;
+	display: inline-block;
+	border: 1px solid black;
+}
+/*----------------------------------------------------*/
+h2{
+	background-color: #147BBF;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 19px;
+}
+h1, h3, h4, h5{
+	color: #236EAD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#container{
+	width: 768px;
+	border: 1px solid black;
+	font-family: 'Arial', 'Calibri', serif, sans-serif;
+}
+#header{
+	height: 100px;
+}
+	.mainlogo{
+		border: 1px black solid;
+	}
+	.navbar{
+		border: 1px solid gray;
+		display: inline-block;
+		text-align: right;
+		padding: 0px;
+	}
+		.navbar li{
+			list-style-type: none;
+			display: inline-block;
+		}
+	#header img{
+		vertical-align: top;
+	}
+	.word{
+		color: gray;
+		font-weight: bold;
+	}
+	.stream{
+		color: #1C7BAE;
+		font-weight: bold;
+	}
+
+
+h1{
+	display: inline;
+	margin: 0px;
+	vertical-align: center;
+}
+h2{
+	margin: 0px;
+	padding: 10px 0px;
+	color: white;
+	background-color: #147CC2;
+
+
+
+
+}
+#sidenav{
+	width: 235px;
+	height: 550px;
+	display: inline-block;
+}
+	.ad{
+		background: url(ad.png) no-repeat;
+		width: 198px;
+		height: 241px;
+	}
+	.ppc input{
+		width: 235px;
+		text-align: center;
+	}
+
+
+
+
+
+#body{
+	width: 525px;
+	height: 550px;
+	display: inline-block;
+	vertical-align: top;
+}
+	.home-button{
+		width: 225px;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid;
+	}
+		.home-button img{
+			display: inline-block;
+		}
+		.home-button p{
+			display: inline-block;
+			vertical-align: center;
+		}
+	.contact{
+		display: inline-block;
+		width: 285px;
+		vertical-align: top;
+		text-align: center;
+		border: 1px solid;
+	}
+		.contact p{
+			margin: 0px;
+			display: inline-block;
+		}
+		.contact img{
+			display: block;
+
+		}
+	.ad2{
+		border: 3px solid blue;
+		display: inline-block;
+	}
+
+
+
+
+
+
+h3, h4{
+	color: blue;
+	margin: 0px;
+}*/
