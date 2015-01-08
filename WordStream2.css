@@ -1,11 +1,14 @@
+body{
+	background-color: #F2F2F2
+}
 #container{
 	width: 1080px;
-	border: 1px solid black;
 	font-family: 'Arial', 'Calibri', serif, sans-serif;
 }
 /*----------------------------------------------------*/
 #header{
 	height:100px;
+	margin-bottom:20px;
 }
 	#header ul{
 		text-align: center;
@@ -15,9 +18,10 @@
 		border-right: 1px solid black;
 		border-radius: 5px;
 		border-color: #E6E6E6;
+		border-spacing: 10px;
 		display: inline-block;
 		width :410px;
-		padding: 0px;
+		padding: 0px 5px 5px 5px;
 		vertical-align: top;
 		background-color: #F9F9F9;
 	}
@@ -30,8 +34,6 @@
 					color: #9597A4;
 			}
 	#header img{
-		height: 60px;
-		width: 80px;
 		padding-bottom: 10px;
 		vertical-align: middle;
 	}
@@ -42,27 +44,31 @@
 	}
 	.logo{
 		display: inline-block;
-		width:595px;
+		width:590px;
 		height: 100px;
 		margin-top: 10px;
 	}
+	.logo img{
+		vertical-align: middle;
+	}
 	.logo h1{
-		font-size: 50px;
+		font-size: 45px;
 		display: inline-block;
 		vertical-align: middle;
 	}
 	.word{
 		color: #838385;
+		font-weight: lighter;
 	}
 	.stream{
 		color: #28799C;
+		font-weight: lighter;
 	}
 /*----------------------------------------------------*/
 #sidenav{
 	width: 320px;
 	display: inline-block;
 	vertical-align: top;
-	border: 1px solid black;
 }
 	.ppc input{
 		width: 320px;
@@ -96,24 +102,86 @@
 		width: 300px;
 		height: 365px;
 	}
+	#graded{
+		text-align: center;
+	}
+		#graded input{
+		width: 250px;
+		background-color: #185182;
+		color: #FFFFFF;
+		text-align: center;
+		border-radius: 5px;
+	}
 /*----------------------------------------------------*/
 #body{
 	width: 750px;
 	display: inline-block;
+}
+	#body p, li{
+		font-size: 14px;
+		line-height: 135%;
+	}
+.home-button{
+	width: 475px;
+	display: inline-block;
+	vertical-align: top;
+}
+.phone{
+	text-align: right;
+	height: 62px;
+}
+.contact{
+	width: 225px;
+	display: inline-block;
+	text-align: right;
+}
+.contact p{
+	margin: 0px;
+	display: inline-block;
+}
+.ad2{
 	border: 1px solid black;
 }
+.ad2 img{
+	height: 120px;
+	vertical-align: topz;
+}
+	.profits{
+		width: 650px;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid red;
+	}
+		.profits input{
+			height: 40px;
+			width: 175px;
+			background-color: #91B307;
+			color: #FFFFFF;
+			border-radius: 7.5px;
+			font-size: 24px;
+		}
+		.profits p{
+			font-size: 24px;
+		}
 /*----------------------------------------------------*/
 h2{
 	background-color: #147BBF;
 	color: #FFFFFF;
 	margin: 0px;
 	padding: 19px;
+	font-size: 28px;
+	font-weight: lighter;
+}
+h3{
+	margin:0px;
 }
 h1, h3, h4, h5{
 	color: #236EAD;
 }
 
-
+.bold{
+	font-weight: bold;
+}
 
 
 
