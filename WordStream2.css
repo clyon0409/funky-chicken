@@ -1,5 +1,5 @@
 body{
-	background-color: #F2F2F2
+	background-color: #FAFAFA
 }
 #container{
 	width: 1080px;
@@ -16,14 +16,15 @@ body{
 		border-bottom: 1px solid black;
 		border-left: 1px solid black;
 		border-right: 1px solid black;
-		border-radius: 5px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		border-color: #E6E6E6;
 		border-spacing: 10px;
 		display: inline-block;
-		width :410px;
-		padding: 0px 5px 5px 5px;
+		width: 390px;
+		padding: 0px 0px 15px 0px;
 		vertical-align: top;
-		background-color: #F9F9F9;
+		background-color: #F8F8F8;
 	}
 		#header ul li{
 				list-style-type: none;
@@ -32,6 +33,8 @@ body{
 				#header ul li a{
 					text-decoration: none;
 					color: #9597A4;
+					background-color: #F8F8F8;
+
 			}
 	#header img{
 		padding-bottom: 10px;
@@ -39,8 +42,9 @@ body{
 	}
 	#header input{
 		vertical-align: top;
-		background-color: #1581C8;
+		background: linear-gradient(#45C3FE, #157DBC);
 		color: #FFFFFF;
+		border-radius:7px;
 	}
 	.logo{
 		display: inline-block;
@@ -66,114 +70,138 @@ body{
 	}
 /*----------------------------------------------------*/
 #sidenav{
-	width: 320px;
+	width: 260px;
 	display: inline-block;
 	vertical-align: top;
+	margin-top: 45px;
 }
 	.ppc input{
-		width: 320px;
+		width: 260px;
 		text-align: center;
+		height: 40px;
+		color: #FFFFFF;
+		font-size: 24px;
+		border-radius: 8px;
+		font-weight: bolder;
 	}
 		.wordstream-sidebar-title{
 			color: #487BB1;
+			font-size: 22px;
 		}
 		.drive-profit{
 			color: #C45149;
+			font-weight: bold;
 		}
 		.schedule-demo{
-			background-color: #2C9AE0;
+			background: linear-gradient(#2FA0E5, #2B99DF);
 		}
 		.free-trial{
-			background-color: #EA6700;
+			background: linear-gradient(#F99C1B, #E24700);
 		}
 		.no-cc-req{
 			text-align: center;
 		}
 		.adwords-performance{
 			font-weight: bold;
-			color: #275D8A;
-			font-size: 20px;
+			color: #2C6693;
+			font-size: 22px;
 		}
 		.free-report{
 			font-weight: bold;
+			color: #4A4A4A;
 		}
 	.ad{
 		background:url(left_content_ad1.png) no-repeat;
-		width: 300px;
-		height: 365px;
+		background-size: 100% 100%;
+		height: 375px;
+		padding: 5px 10px;
 	}
 	#graded{
 		text-align: center;
 	}
 		#graded input{
-		width: 250px;
-		background-color: #185182;
+		width: 240px;
+		background: linear-gradient(#2A74AD, #1A5C92, #2A74AD);
 		color: #FFFFFF;
 		text-align: center;
 		border-radius: 5px;
+		height: 40px;
+		font-size: 18px
 	}
 /*----------------------------------------------------*/
 #body{
-	width: 750px;
+	width: 780px;
 	display: inline-block;
+	margin-left: 30px;
 }
 	#body p, li{
-		font-size: 14px;
-		line-height: 135%;
+		font-size: 14.5px;
+		line-height: 155%;
+	}
+	#body ul{
+		padding-left: 0px;
+		list-style-type: none;
 	}
 .home-button{
-	width: 475px;
+	width: 478px;
 	display: inline-block;
 	vertical-align: top;
 }
+	.bluetext{
+		color: #669AC5;
+	}
 .phone{
-	text-align: right;
 	height: 62px;
+	vertical-align: top;
+}
+.number{
+	font-size: 36px;
+	font-weight: bold;
+	color: #3AB3ED;
 }
 .contact{
 	width: 225px;
 	display: inline-block;
 	text-align: right;
 }
-.contact p{
-	margin: 0px;
-	display: inline-block;
-}
 .ad2{
-	border: 1px solid black;
+	border: 5px solid #8DBAD1;
+	width: 800px;
 }
 .ad2 img{
 	height: 120px;
-	vertical-align: topz;
+	vertical-align: top;
 }
 	.profits{
-		width: 650px;
+		width: 700px;
 		display: inline-block;
 		vertical-align: top;
-		border: 1px solid red;
 	}
 		.profits input{
 			height: 40px;
-			width: 175px;
+			width: 250px;
 			background-color: #91B307;
 			color: #FFFFFF;
 			border-radius: 7.5px;
 			font-size: 24px;
+			margin: 10px;
 		}
-		.profits p{
-			font-size: 24px;
+		.profits span{
+			font-size: 18px;
+			line-height: 150%;
 		}
 /*----------------------------------------------------*/
 h2{
-	background-color: #147BBF;
+	background: linear-gradient(#1173B7, #147CC3, #1173B7);
 	color: #FFFFFF;
-	margin: 0px;
+	margin: 0px 0px 30px 0px;
 	padding: 19px;
 	font-size: 28px;
 	font-weight: lighter;
 }
 h3{
-	margin:0px;
+	font-size: 25px;
+	margin: 0px 0px 5px 0px;
 }
 h1, h3, h4, h5{
 	color: #236EAD;
@@ -182,139 +210,6 @@ h1, h3, h4, h5{
 .bold{
 	font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#container{
-	width: 768px;
-	border: 1px solid black;
-	font-family: 'Arial', 'Calibri', serif, sans-serif;
+.dot{
+	color: #2372A2;
 }
-#header{
-	height: 100px;
-}
-	.mainlogo{
-		border: 1px black solid;
-	}
-	.navbar{
-		border: 1px solid gray;
-		display: inline-block;
-		text-align: right;
-		padding: 0px;
-	}
-		.navbar li{
-			list-style-type: none;
-			display: inline-block;
-		}
-	#header img{
-		vertical-align: top;
-	}
-	.word{
-		color: gray;
-		font-weight: bold;
-	}
-	.stream{
-		color: #1C7BAE;
-		font-weight: bold;
-	}
-
-
-h1{
-	display: inline;
-	margin: 0px;
-	vertical-align: center;
-}
-h2{
-	margin: 0px;
-	padding: 10px 0px;
-	color: white;
-	background-color: #147CC2;
-
-
-
-
-}
-#sidenav{
-	width: 235px;
-	height: 550px;
-	display: inline-block;
-}
-	.ad{
-		background: url(ad.png) no-repeat;
-		width: 198px;
-		height: 241px;
-	}
-	.ppc input{
-		width: 235px;
-		text-align: center;
-	}
-
-
-
-
-
-#body{
-	width: 525px;
-	height: 550px;
-	display: inline-block;
-	vertical-align: top;
-}
-	.home-button{
-		width: 225px;
-		display: inline-block;
-		vertical-align: top;
-		border: 1px solid;
-	}
-		.home-button img{
-			display: inline-block;
-		}
-		.home-button p{
-			display: inline-block;
-			vertical-align: center;
-		}
-	.contact{
-		display: inline-block;
-		width: 285px;
-		vertical-align: top;
-		text-align: center;
-		border: 1px solid;
-	}
-		.contact p{
-			margin: 0px;
-			display: inline-block;
-		}
-		.contact img{
-			display: block;
-
-		}
-	.ad2{
-		border: 3px solid blue;
-		display: inline-block;
-	}
-
-
-
-
-
-
-h3, h4{
-	color: blue;
-	margin: 0px;
-}*/
